@@ -38,11 +38,11 @@
     "storageAccountType": "Standard_GRS",
     "vhdContainerName": "vhds",
     "uniqueStringArray": [
-      "[concat(uniqueString(concat(parameters('storageAccountNamePrefix'), '15')))]",
-      "[concat(uniqueString(concat(parameters('storageAccountNamePrefix'), '25')))]",
-      "[concat(uniqueString(concat(parameters('storageAccountNamePrefix'), '35')))]",
-      "[concat(uniqueString(concat(parameters('storageAccountNamePrefix'), '45')))]",
-      "[concat(uniqueString(concat(parameters('storageAccountNamePrefix'), '55')))]"
+      "[concat(uniqueString(concat(parameters('storageAccountNamePrefix'), '0')))]",
+      "[concat(uniqueString(concat(parameters('storageAccountNamePrefix'), '1')))]",
+      "[concat(uniqueString(concat(parameters('storageAccountNamePrefix'), '2')))]",
+      "[concat(uniqueString(concat(parameters('storageAccountNamePrefix'), '3')))]",
+      "[concat(uniqueString(concat(parameters('storageAccountNamePrefix'), '4')))]"
     ],
     "saCount": "[length(variables('uniqueStringArray'))]",
     "computeApiVersion": "2016-03-30",
